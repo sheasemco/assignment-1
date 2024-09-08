@@ -10,7 +10,7 @@ double calculatePerimeter();
 double calculateArea();
 double calculateWidth();
 double calculateHeight();
-double askForUserInput();  // Optional bonus function
+double askForUserInput();  
 
 // Main function
 int main(int argc, char **argv) {
