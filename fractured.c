@@ -1,3 +1,5 @@
+//sheamus semco
+//NID: 5432235
 #include <stdio.h>
 #include <math.h>
 
@@ -49,18 +51,18 @@ double calculateDistance() {
     return distance;
 }
 
-// Function to calculate the perimeter (using the calculated distance as diameter)
+// Function to calculate the perimeter (
 double calculatePerimeter() {
     double distance = calculateDistance();
     double perimeter = PI * distance;
 
     printf("The perimeter of the city encompassed by your request is %.2lf\n", perimeter);
 
-    // Return a difficulty rating from 1.0 to 5.0
-    return 3.0;  // Example difficulty level
+    // Return a difficulty rating 
+    return 3.0;  
 }
 
-// Function to calculate the area (using the calculated distance as diameter)
+// Function to calculate the area
 double calculateArea() {
     double distance = calculateDistance();
     double radius = distance / 2;
@@ -68,11 +70,11 @@ double calculateArea() {
 
     printf("The area of the city encompassed by your request is %.2lf\n", area);
 
-    // Return a difficulty rating from 1.0 to 5.0
-    return 4.0;  // Example difficulty level
+    // Return a difficulty rating 
+    return 4.0;  
 }
 
-// Function to calculate the width (distance between the x-coordinates)
+// Function to calculate the width 
 double calculateWidth() {
     double x1, x2, width;
 
@@ -92,10 +94,10 @@ double calculateWidth() {
     // Output the width
     printf("The width of the city encompassed by your request is %.2lf\n", width);
 
-    return 2.0;  // Example difficulty level
+    return 2.0;  
 }
 
-// Function to calculate the height (distance between the y-coordinates)
+// Function to calculate the height 
 double calculateHeight() {
     double y1, y2, height;
 
@@ -115,10 +117,10 @@ double calculateHeight() {
     // Output the height
     printf("The height of the city encompassed by your request is %.2lf\n", height);
 
-    return 2.5;  // Example difficulty level
+    return 2.5;  
 }
 
-// Optional bonus: Function to ask for user input and return the input as a double
+// Optional bonus
 double askForUserInput() {
     double input;
     printf("Enter a value: ");
